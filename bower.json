@@ -5,7 +5,7 @@
   "authors": [
     "Kosei Moriyama <cou929@gmail.com>"
   ],
-  "description": "iOS like switches for radio and checkbox",
+  "description": "Old iOS like switches for radio and checkbox",
   "license": "MIT",
   "ignore": [
     "**/.*",

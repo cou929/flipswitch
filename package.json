@@ -1,7 +1,7 @@
 {
   "name": "flipswitch",
   "version": "0.0.1",
-  "description": "iOS like switches for radio and checkbox",
+  "description": "Old iOS like switches for radio and checkbox",
   "main": "dist/",
   "scripts": {
     "test": "bower install; grunt test",
