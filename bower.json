@@ -6,6 +6,7 @@
     "Kosei Moriyama <cou929@gmail.com>"
   ],
   "description": "Old iOS like switches for radio and checkbox",
+  "main": "dist/*",
   "license": "MIT",
   "ignore": [
     "**/.*",
