@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <script src="../bower_components/jquery/dist/jquery.js" type="text/javascript"></script>
+    <link href="../dist/flipswitch.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <div class="flipswitch">
+      <input type="radio" id="radio-enable" name="status" checked />
+      <label for="radio-enable" class="flipswitch-label flipswitch-enable selected"><span>Enable</span></label>
+      <input type="radio" id="radio-disable" name="status" />
+      <label for="radio-disable" class="flipswitch-label flipswitch-disable"><span>Disable</span></label>
+    </div>
+
+    <div class="flipswitch">
+      <label class="flipswitch-label flipswitch-enable"><span>On</span></label>
+      <label class="flipswitch-label flipswitch-disable selected"><span>Off</span></label>
+      <input type="checkbox" name="another_status" />
+    </div>
+
+    <script src="../dist/flipswitch.js" type="text/javascript"></script>
+
+  </body>
+</html>
