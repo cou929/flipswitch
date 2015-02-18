@@ -2,7 +2,8 @@
     'use strict';
 
     function activate(target) {
-        $('.flipswitch .flipswitch-label', target).on('click', function() {
+        $('.flipswitch .flipswitch-label', target).off('click.flipswitch');
+        $('.flipswitch .flipswitch-label', target).on('click.flipswitch', function() {
             var parent = $(this).parents('.flipswitch');
             var is_enable = $(this).hasClass('flipswitch-enable');
             var opposite = is_enable ? '.flipswitch-disable' : '.flipswitch-enable';
